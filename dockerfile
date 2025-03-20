@@ -6,4 +6,5 @@ WORKDIR /piston
 EXPOSE 2000
 
 # Start the Piston API
-CMD ["./piston", "start"]
+CMD ["piston", "start"]
+
